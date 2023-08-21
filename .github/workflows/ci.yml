@@ -20,9 +20,9 @@ jobs:
 
       - name: Auto green
         run: |
-          git config --local user.email "sbfran@163.com"
-          git config --local user.name "sbfran"
+          git config --local user.email "guanfeng168@skiff.com"
+          git config --local user.name "guanfeng168"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "祝福世界上的所有人"
+          git commit --allow-empty -m "祝福世界上的所有人永远开心~"
           git push
